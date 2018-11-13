@@ -1,0 +1,56 @@
+/*********************************
+3.2 Main Navigation
+*********************************/
+
+.main_nav
+{
+	margin-right: -3px;
+	height: 100%;
+	flex-basis: 200%;
+	text-align: right;
+}
+.nav_items
+{
+	height: 100%;
+}
+.nav_items li
+{
+	display: inline-block;
+	margin-left: 35px;
+	height: 100%;
+}
+.nav_items li a
+{
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #0b1033;
+	letter-spacing: 3.5px;
+	height: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 14px;
+	padding-right: 10px;
+}
+.nav_items li.active
+{
+	background: #71a6fc;
+}
+.nav_items li.active a
+{
+	color: #FFFFFF;
+}
+.nav_items li:hover
+{
+	background: #71a6fc;
+}
+.nav_items li:hover a
+{
+	color: #FFFFFF;
+}

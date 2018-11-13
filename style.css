@@ -1,0 +1,248 @@
+
+#fade
+{
+  position: relative;
+  transform: scale(0.5);
+}
+
+#fade img
+{
+  position: absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 200;
+  width: 100%
+}
+
+#fade .imageTop:hover
+{
+  opacity: 0;
+}
+
+#create input[type=password], input[type=email], input[type=text]
+{
+  width: 600px;
+  padding: 8px 8px;
+  margin: 8px, 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+#create input[type=submit]
+{
+  width: 250px;
+  padding: 8px 8px;
+  margin: 8px, 8px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #4CAF50;
+  cursor: pointer;
+  font-size: 15px;
+
+  transition: background-color 0.15s ease-in-out;
+}
+
+#create input[type=submit]:hover
+{
+  background-color: #6af770;
+}
+
+#create
+{
+  font-family: "Verdana", serif;
+}
+
+.topnav
+{
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a
+{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "FjallaOne";
+  position: relative;
+  top: 17px;
+}
+
+.topnav p
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "FjallaOne";
+}
+
+.topnav a:hover
+{
+  background-color: #71a6fc;
+  color: black;
+}
+
+.topnav a.active
+{
+  background-color: #acc9f9;
+  color: white;
+}
+
+#about
+{
+  position: relative;
+  top: 50px;
+}
+
+#about h1
+{
+  font-family: "Featherscript";
+  font-size: 35px;
+  color: #fff;
+}
+
+#about p
+{
+  font-family: "Verdana", serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+#about img
+{
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #71a6fc;
+}
+
+#about section
+{
+  height: 200px;
+  float: left;
+  width: 48%;
+  padding: 20px;
+  border-radius: 75px;
+  background-color: #acc9f9;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+
+}
+
+#about .Gloops
+{
+  text-align: left;
+}
+
+#about .Gloops img
+{
+  margin-right: 15px;
+  float: left;
+}
+
+#about .Grizzly
+{
+  float: right;
+  text-align: right;
+}
+
+#about .Grizzly img
+{
+  float: right;
+}
+
+#about .Manny
+{
+  text-align: left;
+}
+
+#about .Manny img
+{
+  margin-right: 15px;
+  float: left;
+}
+
+.subStore
+{
+  margin: auto;
+  width: 300px;
+  padding: 25px;
+
+
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab
+{
+  padding: 20px;
+  color: white;
+}
+
+.storeSection:after
+{
+  content: "";
+}
+
+
+.closebtn
+{
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+@font-face
+{
+  font-family: Featherscript;
+  src: url("/resources/fonts/FeatherScript.otf");
+  font-weight: normal;
+}
+
+@font-face
+{
+  font-family: SingleSleeve;
+  src: url("/resources/fonts/sing_14l.ttf");
+  font-weight: normal;
+}
+
+@font-face
+{
+  font-family: Anton;
+  src: url("/resources/fonts/Anton-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face
+{
+  font-family: FjallaOne;
+  src: url("/resources/fonts/FjallaOne-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face
+{
+  font-family: Yanone;
+  src: url("/resources/fonts/YanoneKaffeesatz-Bold.ttf");
+  font-weight: normal;
+}
