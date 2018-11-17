@@ -38,9 +38,9 @@
 		<!-- Main Navigation -->
 		<nav class="main_nav justify-self-end">
 			<ul class="nav_items">
-				<li><a href="index.html"><span>home</span></a></li>
-				<li class="active"><a href="milestones.html"><span>milestones</span></a></li>
-				<li><a href="contact.html"><span>contact</span></a></li>
+				<li ><a href="index.php"><span>home</span></a></li>
+				<li class="active"><a href="milestones.php"><span>milestones</span></a></li>
+				<li><a href="contact.php"><span>contact</span></a></li>
 			</ul>
 		</nav>
 
@@ -242,8 +242,75 @@
 						</div>
 					</div>
 
-					<!-- Milestones -->
+					<?php
 
+							function debug_to_console($data)
+							{
+								$output = $data;
+								if(is_array($output))
+								{
+									$output = implode (',', $output);
+								}
+
+								echo "<script>console.log( 'CONSOLE: " . $output . "' );</script>";
+							}
+
+						$members = 2;
+						$datestamp = "01/01/1970" ;
+						$activeprojects = 0;
+						$codelines = 420;
+
+						$serverip = "178.84.28.2:3350";
+						$username = "remote";
+						$password = "mf8k66DwgDa48GLx2Vdu5FqLN8vNmeHBuuKMBbcCw5VZYmQDr9ZNPcdmnZZNd2v894d2XGQ5RY5qZrZD8nNf4xNDqfmAEXae2np8rDKzBvHdpXrsesG8s3avRVbUs9W42deXmUtaujhVj9Sr64ttjZTH4M8BEJZwnYX4d4TYYMvAJUjTRMLT6WZz7JGGZcY5FpjvHD2fkENSNGEpKkrYNrXNDkXwTR6s2LM9YthTXQwYStSTRaWeXRCgNuVdVSrd";
+						$db = "auth";
+
+						$conn = new mysqli($serverip, $username, $password, $db);
+
+						if($conn -> connect_error)
+						{
+							die("Connection failed: "  .$conn->connect_error);
+						}
+						debug_to_console("Connection Successful");
+
+						// Gather totallines and exchange it to a string
+						$q_collectlines = "SELECT totallines FROM devvalues";
+						$r_collectlines = mysqli_query($conn, $q_collectlines);
+
+						while($row = $r_collectlines->fetch_assoc())
+						{
+							$codelines = $row['totallines'];
+						}
+
+						// Gather members and exchange it to a string.
+						$q_collectmembers = "SELECT members FROM devvalues";
+						$r_collectmembers = mysqli_query($conn, $q_collectmembers);
+
+						while($row = $r_collectmembers->fetch_assoc())
+						{
+							$members = $row['members'];
+						}
+
+						// Gather active projects and exchange it to a string.
+						$q_activeprojects = "SELECT projects FROM devvalues";
+						$r_activeprojects = mysqli_query($conn, $q_activeprojects);
+
+						while($row = $r_activeprojects->fetch_assoc())
+						{
+							$activeprojects = $row['projects'];
+						}
+
+						// Gather a value to string.
+						$q_date = "SELECT startdate FROM devvalues";
+						$r_date = mysqli_query($conn, $q_date);
+
+						while($row = $r_date->fetch_assoc())
+						{
+							$datestamp = $row['startdate'];
+						}
+					 ?>
+
+					<!-- Milestones -->
 					<div class="elements_section">
 						<div class="elements_title">
 							<h3>milestones</h3>
@@ -252,34 +319,31 @@
 
 							<!-- Milestone -->
 							<div class="milestone">
-								<div class="milestone_counter" data-end-value="4">0</div>
+								<div class="milestone_counter" data-end-value=<?php echo $datestamp ?>>0</div>
+								<div class="milestone_text">working together since</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="milestone">
+								<div class="milestone_counter" data-end-value=<?php echo $members ?>>0</div>
 								<div class="milestone_text">team members</div>
 							</div>
 
 							<!-- Milestone -->
 							<div class="milestone">
-								<div class="milestone_counter" data-end-value="1">0</div>
-								<div class="milestone_text">year of working together</div>
-							</div>
-
-							<!-- Milestone -->
-							<div class="milestone">
-								<div class="milestone_counter" data-end-value="1">0</div>
+								<div class="milestone_counter" data-end-value=<?php echo $activeprojects ?>>0</div>
 								<div class="milestone_text">active project</div>
 							</div>
 
 							<!-- Milestone -->
 							<div class="milestone">
-								<div class="milestone_counter" data-end-value="231879">0</div>
+								<div class="milestone_counter" data-end-value=<?php echo $codelines ?>>0</div>
 								<div class="milestone_text">lines of code</div>
 							</div>
-
-
 						</div>
 					</div>
 
 					<!-- Icon Boxes -->
-
 					<div class="elements_section">
 						<div class="elements_title">
 							<h3>icon boxes</h3>
@@ -320,7 +384,6 @@
 	</div>
 
 	<!-- Footer -->
-
 	<footer class="footer">
 		<div class="container">
 			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
@@ -359,6 +422,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/elements_custom.js"></script>
+
+<script type="text/javascript" src="js/extension.js"></script>
 </body>
 
 </html>
+
+<script>
+IncludeHTML();
+</script>

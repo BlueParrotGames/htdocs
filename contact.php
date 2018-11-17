@@ -38,9 +38,9 @@
 		<!-- Main Navigation -->
 		<nav class="main_nav justify-self-end">
 			<ul class="nav_items">
-				<li><a href="index.html"><span>home</span></a></li>
-				<li><a href="milestones.html"><span>milestones</span></a></li>
-				<li class="active"><a href="contact.html"><span>contact</span></a></li>
+				<li><a href="index.php"><span>home</span></a></li>
+				<li><a href="milestones.php"><span>milestones</span></a></li>
+				<li class="active"><a href="contact.php"><span>contact</span></a></li>
 			</ul>
 		</nav>
 
@@ -177,7 +177,7 @@
 				<div class="col-lg-10 offset-lg-1 text-center contact_text">
 					<p>Dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen atis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
 					<div class="button contact_button">
-						<a href="contact.html" class="d-flex flex-row align-items-center justify-content-center">contact<img src="images/arrow_right.svg" alt=""></a>
+						<a href="contact.php" class="d-flex flex-row align-items-center justify-content-center">contact<img src="images/arrow_right.svg" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -225,6 +225,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/contact_custom.js"></script>
+
+<script type="text/javascript" src="js/extension.js"></script>
 </body>
 
 </html>
+
+<script>
+IncludeHTML();
+</script>

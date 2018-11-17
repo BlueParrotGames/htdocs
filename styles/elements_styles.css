@@ -915,11 +915,11 @@ section
 }
 .milestone
 {
-	width: 20%;
+	width: 50%;
 }
 .milestone_counter
 {
-	font-size: 44px;
+	font-size: 42px;
 	font-weight: 600;
 	color: #1c1c1c;
 	line-height: 36px;

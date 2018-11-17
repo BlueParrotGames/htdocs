@@ -33,12 +33,13 @@
 			</div>
 		</div>
 
+
 		<!-- Main Navigation -->
 		<nav class="main_nav justify-self-end">
 			<ul class="nav_items">
-				<li class="active"><a href="index.html"><span>home</span></a></li>
-				<li><a href="milestones.html"><span>milestones</span></a></li>
-				<li><a href="contact.html"><span>contact</span></a></li>
+				<li class="active"><a href="index.php"><span>home</span></a></li>
+				<li><a href="milestones.php"><span>milestones</span></a></li>
+				<li><a href="contact.php"><span>contact</span></a></li>
 			</ul>
 		</nav>
 
