@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Blue Parrot Studio</title>
+<title>Blue Parrot Games</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +29,7 @@
 		<!-- Logo -->
 		<div class="logo_container mr-auto">
 			<div class="logo">
-				<a href="#">Blue Parrot Studios</a>
+				<a href="#">Blue Parrot Games</a>
 			</div>
 		</div>
 

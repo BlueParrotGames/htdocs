@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>BPS - Milestones</title>
+<title>BPG - Milestones</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,7 @@
 		<!-- Logo -->
 		<div class="logo_container mr-auto">
 			<div class="logo">
-				<a href="#">Blue Parrot Studios</a>
+				<a href="#">Blue Parrot Games</a>
 			</div>
 		</div>
 
@@ -59,9 +59,9 @@
 		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
 		<nav class="fs_menu_nav">
 			<ul class="fs_menu_list">
-				<li><a href="#"><span><span>H</span>Home</span></a></li>
-				<li><a href="#"><span><span>E</span>Milestones</span></a></li>
-				<li><a href="#"><span><span>C</span>Contact</span></a></li>
+				<li><a href="index.php"><span><span>H</span>Home</span></a></li>
+				<li><a href="milestones.php"><span><span>E</span>Milestones</span></a></li>
+				<li><a href="contact.php"><span><span>C</span>Contact</span></a></li>
 			</ul>
 		</nav>
 		<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
@@ -109,43 +109,6 @@
 			<!-- Buttons -->
 			<div class="row">
 				<div class="col">
-					<div class="elements_section">
-						<!--
-						<div class="elements_buttons_container d-flex flex-sm-row flex-column">
-
-							<div class="button element_button">
-								<a href="#" class="d-flex flex-row align-items-center justify-content-center">
-									discover
-									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-										 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
-									<polygon id="arrow_poly_1" class="arrow_poly" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
-									</svg>
-								</a>
-							</div>
-
-							<div class="button border_button element_button">
-								<a href="#" class="d-flex flex-row align-items-center justify-content-center">
-									discover
-									<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-										 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
-									<polygon id="arrow_poly_2" class="arrow_poly" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
-									</svg>
-								</a>
-							</div>
-
-							<div class="button element_button button_black">
-								<a href="#" class="d-flex flex-row align-items-center justify-content-center">
-									discover
-									<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-										 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
-									<polygon id="arrow_poly_3" class="arrow_poly" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
-									</svg>
-								</a>
-							</div>
-						</div>
-					-->
-
-					</div>
 
 					<!-- Progress Bars & Accordions -->
 
@@ -339,42 +302,6 @@
 							<div class="milestone">
 								<div class="milestone_counter" data-end-value=<?php echo $codelines ?>>0</div>
 								<div class="milestone_text">lines of code</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Icon Boxes -->
-					<div class="elements_section">
-						<div class="elements_title">
-							<h3>icon boxes</h3>
-						</div>
-						<div class="row iconbox_container">
-
-							<!-- Icon Box -->
-							<div class="col-lg-4 icon_box text-left d-flex flex-column align-items-start justify-content-start">
-								<div class="icon_container d-flex flex-column justify-content-end">
-									<img src="images/icon_1.svg" alt="">
-								</div>
-								<h3>modern design</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum.</p>
-							</div>
-
-							<!-- Icon Box -->
-							<div class="col-lg-4 icon_box text-left d-flex flex-column align-items-start justify-content-start">
-								<div class="icon_container d-flex flex-column justify-content-end">
-									<img src="images/icon_2.svg" alt="">
-								</div>
-								<h3>easy to use</h3>
-								<p>Dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt.</p>
-							</div>
-
-							<!-- Icon Box -->
-							<div class="col-lg-4 icon_box text-left d-flex flex-column align-items-start justify-content-start">
-								<div class="icon_container d-flex flex-column justify-content-end">
-									<img src="images/icon_3.svg" alt="">
-								</div>
-								<h3>well documented</h3>
-								<p>Adipiscing elit. Phasellus vestibulum, quam tincidunt venen atis ultrices.</p>
 							</div>
 						</div>
 					</div>
