@@ -106,10 +106,6 @@
 
 		<div class="container">
 
-			<!-- Buttons -->
-			<div class="row">
-				<div class="col">
-
 					<!-- Progress Bars & Accordions -->
 
 					<div class="elements_section">
@@ -308,7 +304,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
 	<!-- Footer -->
 	<footer class="footer">

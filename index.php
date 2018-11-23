@@ -180,7 +180,6 @@
 				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/icon_1.svg" alt="">
 						</div>
@@ -192,7 +191,6 @@
 				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/icon_2.svg" alt="">
 						</div>
@@ -204,7 +202,6 @@
 				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/icon_3.svg" alt="">
 						</div>
@@ -216,6 +213,32 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
+				<div class="col-sm-6 cr text-sm-left text-center">
+					<p>
+						This website, is owned and created by Blue Parrot Games. All rights reserverd
+					</p>
+				</div>
+				<div class="col-sm-6 text-sm-right text-center">
+					<div class="footer_social_container">
+						<ul class="footer_social">
+							<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 </div>
 

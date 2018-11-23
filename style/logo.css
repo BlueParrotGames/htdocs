@@ -18,3 +18,13 @@
 	color: #171717;
 	text-transform: uppercase;
 }
+
+.centered_logo_text
+{
+	height: 10em;
+	position: relative;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
