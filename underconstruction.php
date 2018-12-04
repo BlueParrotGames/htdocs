@@ -32,7 +32,7 @@
             <ul class="footer_social">
               <li><a href="https://www.facebook.com/blueparrotgames/"><img class="ImgFacebook" src="resources/facebook.png"></a></li>
               <li><a href="https://twitter.com/BlueParrotGames"><img class="ImgTwitter"  src="resources/Twitter.png"></a></li>
-			  <li><a href="https://www.youtube.com/channel/UCt5Ob_HzkhSjgC1qG7wIhyw?view_as=subscriber"><img class="ImgYoutube"  src="resources/Youtube.png"></a></li>
+			  <li><a href="https://www.youtube.com/channel/UC5OAeVjfatUU47jJ3JfeGJw?view_as=subscriber"><img class="ImgYoutube"  src="resources/Youtube.png"></a></li>
             </ul>
           </div>
       </div>
